@@ -6,4 +6,6 @@ time %= 3600
 min = time // 60
 time %=60
 seconds = time
-print("h:m:s-> %d:%d:%d" % (hour, min, seconds))
+print("hour > %d" %(hour))
+print("minute > %d" %(min))
+print("second > %d" %(seconds))
